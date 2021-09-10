@@ -1,0 +1,6 @@
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: rgb(235, 235, 235);
+}
