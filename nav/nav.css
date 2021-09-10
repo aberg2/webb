@@ -1,17 +1,4 @@
-nav header ul{
-    color: pink;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    font-size: 2rem;
-}
-nav header {
-    margin: 0;
-    padding: 1rem;
-    background-color: black;
-}
+
 footer {
     font-size: 1.5rem;
     color: pink;
