@@ -14,12 +14,22 @@
     display: flex;
     justify-content: space-between;
 }
+.fotlink:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.fotlink {
+    text-decoration: none;
+    font-size: 1rem;
+    color: pink;
+    margin: 0;
+}
 .fotleft {
     flex-direction: column;
     display: flex;
 }
 
 body{
+    background-color: #f5d4b7;
     flex-direction: column;
     display: flex;
 }
