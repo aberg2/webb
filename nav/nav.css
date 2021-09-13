@@ -32,7 +32,11 @@ h1{
 .navbar {
     font-size: 1.6rem;
     min-height: 3rem;
-    background-color: #7fffd4;
+    background-color: #a3080c;
+}
+.navbar-brand {
+    text-decoration: none;
+    color: #fff1e2;
 }
 .navbar-inner {
     flex-direction: row;
@@ -48,11 +52,13 @@ h1{
 }
 .nav-link {
     text-decoration: none;
+    color: #fff1e2;
 }
 .nav-link:hover{
     text-decoration: underline;
 }
 .nav-item{
+    margin-top: 0.3rem;
     padding-left: 1rem;
 }
 .nav {
