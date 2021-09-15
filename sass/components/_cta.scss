@@ -1,0 +1,35 @@
+.cta {
+    background-image: url("images/kfc.jpg");
+    background-size: cover;
+    padding: 2rem;
+
+    p {
+        color: azure;
+        font-size: 1;    
+    }
+    h1 {
+        font-size: 5rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        color: aliceblue;
+        line-height: 1;
+    }
+    button {
+    margin-top: 1rem;
+    border-radius: 12px;
+    background-color: #a3080c;
+    color: inherit;
+    font-size: 2rem;
+	border: none;
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	padding: 0.5rem;
+	cursor: pointer;
+	outline: inherit;
+
+    &:hover {
+        background-color: $primary;
+    }
+}}

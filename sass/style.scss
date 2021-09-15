@@ -1,8 +1,8 @@
 $primary: rgb(219, 73, 73);
 
 $breakpoint-lg: 48rem;
-$breakpoitn-md: $breakpoint-lg/2;
-$berakpoint-sm: $breakpoitn-md/2;
+$breakpoint-md: $breakpoint-lg/2;
+$berakpoint-sm: $breakpoint-md/2;
 
 $font-family: 'Comic Sans', sans-serif;
 
@@ -25,3 +25,6 @@ h1{
 
 @import "utilities/container";
 @import "components/card";
+@import "components/footer";
+@import "components/nav";
+@import "components/cta";

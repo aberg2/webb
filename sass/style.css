@@ -75,4 +75,145 @@ h1 {
   min-height: 50%;
 }
 
+.footer {
+  margin-top: auto;
+  font-size: 1.5rem;
+  color: pink;
+  margin: 0;
+  padding: 1rem 0rem 1rem 0rem;
+  background-color: #a3080c;
+}
+
+.fotright {
+  flex-direction: column;
+  display: flex;
+}
+
+.fotitem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fotlink {
+  text-decoration: none;
+  font-size: 1rem;
+  color: pink;
+  margin: 0;
+}
+.fotlink:hover {
+  color: white;
+}
+
+.fotleft {
+  flex-direction: column;
+  display: flex;
+}
+
+body {
+  background-color: #f5d4b7;
+  flex-direction: column;
+  display: flex;
+}
+
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.navbar {
+  font-size: 1.5rem;
+  font-weight: 700;
+  min-height: 3rem;
+  background-color: #a3080c;
+}
+.navbar-brand {
+  text-decoration: none;
+  color: #fff1e2;
+}
+.navbar-inner {
+  flex-direction: row;
+  display: flex;
+  margin-top: 0.3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 24rem) {
+  .navbar-inner {
+    flex-direction: column;
+  }
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: #fff1e2;
+}
+.nav-link:hover {
+  text-decoration: underline;
+}
+.nav-item {
+  padding-left: 1rem;
+}
+@media screen and (max-width: 24rem) {
+  .nav {
+    flex-direction: column;
+  }
+}
+
+.cta {
+  background-image: url("images/kfc.jpg");
+  background-size: cover;
+  padding: 2rem;
+}
+.cta p {
+  color: azure;
+  font-size: 1;
+}
+.cta h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: aliceblue;
+  line-height: 1;
+}
+.cta button {
+  margin-top: 1rem;
+  border-radius: 12px;
+  background-color: #a3080c;
+  color: inherit;
+  font-size: 2rem;
+  border: none;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 0.5rem;
+  cursor: pointer;
+  outline: inherit;
+}
+.cta button:hover {
+  background-color: #db4949;
+}
+
 /*# sourceMappingURL=style.css.map */
