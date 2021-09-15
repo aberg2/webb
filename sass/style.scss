@@ -1,0 +1,27 @@
+$primary: rgb(219, 73, 73);
+
+$breakpoint-lg: 48rem;
+$breakpoitn-md: $breakpoint-lg/2;
+$berakpoint-sm: $breakpoitn-md/2;
+
+$font-family: 'Comic Sans', sans-serif;
+
+
+* {  margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: $primary;
+    font-size: 16px;
+    line-height: 1.5;
+}
+p {
+    font-size: 1rem;
+}
+h1{
+    font-size: 3rem;
+}
+
+@import "utilities/container";
+@import "components/card";
