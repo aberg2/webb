@@ -33,9 +33,6 @@ h1 {
   justify-content: space-between;
   color: #fff1e2;
 }
-.cards:hover {
-  background-color: #db4949;
-}
 
 .card1, .card2, .card3 {
   background-color: #a3080c;
